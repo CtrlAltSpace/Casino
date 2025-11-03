@@ -5,7 +5,7 @@ import time
 random_number = random.randint(1, 100)
 
 # Ask the player to guess
-guess = int(input('Guess a number of 1-100 for a prize of $1,000,000'))
+guess = int(input('Guess a number of 1-100 for a prize of $1,000,000\n'))
 
 # Check the guess
 if guess == random_number:
@@ -18,4 +18,5 @@ else:
     print("And, the number is")
     print("...")
     time.sleep(2)
+
     print(random_number)
